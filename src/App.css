@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.color-pallet{
+  position: absolute;
+  right: 2%;
+  top: 12%;
+}
+.color-pallet div{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(214, 214, 214);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.color-pallet div.red{
+  background-color: #750000;
+}
+.color-pallet div.blue{
+  background-color: #15007c;
+}
+.color-pallet div.green{
+  background-color: #007910;
+}
+.color-pallet div.dark{
+  background-color: #000e1e;
+}
